@@ -10,9 +10,7 @@ public class W05_IfElseif_PosNegZero {
         } else if(number < 0) { 
             System.out.println(number+" is Nagative number");
         } else if(number==0){
-            System.out.println(" is Zero ");
-        }else{
-             System.out.println(" Invalid Input.");
+            System.out.println(number+ " is Zero ");
         }
         kb.close();
     }
